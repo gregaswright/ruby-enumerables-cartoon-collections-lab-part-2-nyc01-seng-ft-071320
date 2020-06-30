@@ -5,7 +5,7 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.any? do |element|
+  planeteer_calls.collect do |element|
     "#{element.capitalize()}!"
   end
 end
