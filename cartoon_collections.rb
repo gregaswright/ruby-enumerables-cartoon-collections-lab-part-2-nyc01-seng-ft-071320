@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.select do |element|
-    element > 4
+    element.count > 4
   end
 end
 
