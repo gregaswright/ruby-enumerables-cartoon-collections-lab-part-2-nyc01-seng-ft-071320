@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  long_planeteer_calls.select do |element|
+  planeteer_calls.select do |element|
     element > 4
   end
 end
