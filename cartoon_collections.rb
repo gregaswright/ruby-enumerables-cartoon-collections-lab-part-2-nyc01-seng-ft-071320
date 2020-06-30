@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.any? do |element|
-    puts "#{element.capitalize()}!"
+    "#{element.capitalize()}!"
   end
 end
 
